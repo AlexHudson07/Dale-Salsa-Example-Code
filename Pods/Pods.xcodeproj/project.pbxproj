@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1B636DC526528FF3E458AD02AFAB1D /* Pods-Dale SalsaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1485F486AD3FC49D98B34907A95306 /* Pods-Dale SalsaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814306C3E599E0F3EB3015A2591FDB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		942ECD275303198A289ACF6493920737 /* Pods-Dale SalsaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A667D066BB4D07D1175F25E0F7E1631A /* Pods-Dale SalsaTests-dummy.m */; };
+		969F31F0FDB7BA34E6AD354F2C116E99 /* Pods-Dale Salsa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B6D2D95D2F6A922D6FA00BEC7D9AFD /* Pods-Dale Salsa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9730C54ABE3A4F5AA3A6D0B059BD06A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E76A753F6EFD8F38D9E5460EE76C3544 /* Pods-Dale Salsa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA0069512079E96050D648B7983E7E /* Pods-Dale Salsa-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		017445255E914990A291DEC10A16FC02 /* Pods-Dale SalsaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dale SalsaTests-resources.sh"; sourceTree = "<group>"; };
+		040214DC6CD075B91799313BADFA98EB /* Pods_Dale_SalsaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dale_SalsaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB502DE4A0043D76FF1D91034BA708 /* Pods-Dale Salsa-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dale Salsa-resources.sh"; sourceTree = "<group>"; };
+		0B398E6BF5E8DECE85C45591385176B2 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		11B6D2D95D2F6A922D6FA00BEC7D9AFD /* Pods-Dale Salsa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dale Salsa-umbrella.h"; sourceTree = "<group>"; };
+		16CFFA27E73F396EC9D90B93B8D0CE5D /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		1E7FA207A90AC01A353B7E1E220DBB09 /* Pods-Dale Salsa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dale Salsa-frameworks.sh"; sourceTree = "<group>"; };
+		22820C1D914031485661E2C23B933991 /* Pods-Dale Salsa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dale Salsa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		301DA7F3DBFB579F3A66DF2B92B13AAF /* Pods_Dale_Salsa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dale_Salsa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0B56E66CE9FA8AE13B875DE9BFEFF0 /* Pods-Dale SalsaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dale SalsaTests-frameworks.sh"; sourceTree = "<group>"; };
+		47CFA3A7B11E94DEE71E76399C893DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C08283728767536FFC1451B08BCD1E0 /* Pods-Dale Salsa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dale Salsa.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA97034C177B1E70D1126D50BDC694E /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		504F584874310966CAB0443E92E9D214 /* Pods-Dale Salsa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dale Salsa.release.xcconfig"; sourceTree = "<group>"; };
+		5CEA0069512079E96050D648B7983E7E /* Pods-Dale Salsa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dale Salsa-dummy.m"; sourceTree = "<group>"; };
+		5FB8228CAE543EAFD686228001B5CF07 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		61C560637B5E3424DC5ECFC1928CE431 /* Pods-Dale SalsaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dale SalsaTests.release.xcconfig"; sourceTree = "<group>"; };
+		652D7C8FCA2AAEEE676D921739186B1B /* Pods-Dale SalsaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dale SalsaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		672733FDA77A3A002794CE54C67FD1D8 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		8F36754A551623A5D3F538DE7BCBA6C3 /* Pods-Dale Salsa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Dale Salsa.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		968340620DBC3BF61CBAAD132496164F /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A655A7C6CE4644A24BE50556A1D48F70 /* Pods-Dale SalsaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dale SalsaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A667D066BB4D07D1175F25E0F7E1631A /* Pods-Dale SalsaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dale SalsaTests-dummy.m"; sourceTree = "<group>"; };
+		AA1485F486AD3FC49D98B34907A95306 /* Pods-Dale SalsaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dale SalsaTests-umbrella.h"; sourceTree = "<group>"; };
+		B078E64D5E7B8BE0115E379BD3890343 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		B0DE40706B4EDF6503B9B82ED4CA94E8 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		B4F637D13DB2D8AB595E862C8CC66556 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E8B067EB68F119517FCEA4B18D599D /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		B7F49ED44750C9EEBAC31B13DE29E39A /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		C4161CA9B686BF5DC3039A1C0D8F0C8B /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Sources/FIRMessaging.h; sourceTree = "<group>"; };
+		C790148366E86EA2CF04D0FC65521A5C /* Pods-Dale SalsaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dale SalsaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D04AA09DD0B61DC1F6AF31652CF30C3D /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E559F099F870BA59F04642D4ED2BD2EF /* Pods-Dale Salsa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dale Salsa-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFF5C3A7CF47BE147EE86758AB6E2A8A /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F10B6BB4806506939C0D82F7BEB7FF49 /* Pods-Dale SalsaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Dale SalsaTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1143E05976BBC4D790E6534359ACE893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814306C3E599E0F3EB3015A2591FDB49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		674526812D139C65F84545AC70556652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9730C54ABE3A4F5AA3A6D0B059BD06A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F4BD3690A20E11943125903EFA155A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D94A27CE8DAF7320238704215440C8B /* Pods-Dale Salsa */,
+				74D5192219FED4B4515B92C5E327F8E4 /* Pods-Dale SalsaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11A1BAABA3110DFB0C8760FB24AE540E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8B067EB68F119517FCEA4B18D599D /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1485843A0FF53E99398CF31769C7F33E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D04AA09DD0B61DC1F6AF31652CF30C3D /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4E8B968A30757F50E83FB4C647C6FD8E /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1485843A0FF53E99398CF31769C7F33E /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		513438FB501CF064660ECAB50ACB55F4 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				57C83EFE56B3E266247A14EA738739EB /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		57C83EFE56B3E266247A14EA738739EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B078E64D5E7B8BE0115E379BD3890343 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58048180765F79723A51B823F5057173 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CCE219ED7032302562007D21273A6E44 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		58FAA52F2ABDB15EB9C58AC18C5126CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8228CAE543EAFD686228001B5CF07 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5992FEFB89E8CEA9E7599FCDBBF5BB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672733FDA77A3A002794CE54C67FD1D8 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D94A27CE8DAF7320238704215440C8B /* Pods-Dale Salsa */ = {
+			isa = PBXGroup;
+			children = (
+				47CFA3A7B11E94DEE71E76399C893DDD /* Info.plist */,
+				8F36754A551623A5D3F538DE7BCBA6C3 /* Pods-Dale Salsa.modulemap */,
+				22820C1D914031485661E2C23B933991 /* Pods-Dale Salsa-acknowledgements.markdown */,
+				E559F099F870BA59F04642D4ED2BD2EF /* Pods-Dale Salsa-acknowledgements.plist */,
+				5CEA0069512079E96050D648B7983E7E /* Pods-Dale Salsa-dummy.m */,
+				1E7FA207A90AC01A353B7E1E220DBB09 /* Pods-Dale Salsa-frameworks.sh */,
+				04AB502DE4A0043D76FF1D91034BA708 /* Pods-Dale Salsa-resources.sh */,
+				11B6D2D95D2F6A922D6FA00BEC7D9AFD /* Pods-Dale Salsa-umbrella.h */,
+				4C08283728767536FFC1451B08BCD1E0 /* Pods-Dale Salsa.debug.xcconfig */,
+				504F584874310966CAB0443E92E9D214 /* Pods-Dale Salsa.release.xcconfig */,
+			);
+			name = "Pods-Dale Salsa";
+			path = "Target Support Files/Pods-Dale Salsa";
+			sourceTree = "<group>";
+		};
+		6AE910585A5D5A35838554ECCBD55BC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B398E6BF5E8DECE85C45591385176B2 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5B33DB561FB27470D1724EEEC2B2D9 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DA97034C177B1E70D1126D50BDC694E /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		6D598DF1302275ADBFAC2B0D8A1A4FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F49ED44750C9EEBAC31B13DE29E39A /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC570145680116FE0825A467B4C55D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16CFFA27E73F396EC9D90B93B8D0CE5D /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74D5192219FED4B4515B92C5E327F8E4 /* Pods-Dale SalsaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4F637D13DB2D8AB595E862C8CC66556 /* Info.plist */,
+				F10B6BB4806506939C0D82F7BEB7FF49 /* Pods-Dale SalsaTests.modulemap */,
+				A655A7C6CE4644A24BE50556A1D48F70 /* Pods-Dale SalsaTests-acknowledgements.markdown */,
+				652D7C8FCA2AAEEE676D921739186B1B /* Pods-Dale SalsaTests-acknowledgements.plist */,
+				A667D066BB4D07D1175F25E0F7E1631A /* Pods-Dale SalsaTests-dummy.m */,
+				3E0B56E66CE9FA8AE13B875DE9BFEFF0 /* Pods-Dale SalsaTests-frameworks.sh */,
+				017445255E914990A291DEC10A16FC02 /* Pods-Dale SalsaTests-resources.sh */,
+				AA1485F486AD3FC49D98B34907A95306 /* Pods-Dale SalsaTests-umbrella.h */,
+				C790148366E86EA2CF04D0FC65521A5C /* Pods-Dale SalsaTests.debug.xcconfig */,
+				61C560637B5E3424DC5ECFC1928CE431 /* Pods-Dale SalsaTests.release.xcconfig */,
+			);
+			name = "Pods-Dale SalsaTests";
+			path = "Target Support Files/Pods-Dale SalsaTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CB249A5818CCCA32C28E7C232C877673 /* Pods */,
+				A9AF7747755509D910DD846BD084EE15 /* Products */,
+				05F4BD3690A20E11943125903EFA155A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC2C5DFFF28038512D2C07B16A54997 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B33DB561FB27470D1724EEEC2B2D9 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		A9AF7747755509D910DD846BD084EE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301DA7F3DBFB579F3A66DF2B92B13AAF /* Pods_Dale_Salsa.framework */,
+				040214DC6CD075B91799313BADFA98EB /* Pods_Dale_SalsaTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB16B0405D258E0282E803AA0EF60DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5C3A7CF47BE147EE86758AB6E2A8A /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD35C4AF04C60BF6B15A138F6B5A23DD /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5992FEFB89E8CEA9E7599FCDBBF5BB0B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BFBBA74CA91F2D5437E5483DBC508CCB /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				B0DE40706B4EDF6503B9B82ED4CA94E8 /* FIRInstanceID.h */,
+				6DC570145680116FE0825A467B4C55D7 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		C7CF3F12F325636CA27201B12207DBDD /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				C4161CA9B686BF5DC3039A1C0D8F0C8B /* FIRMessaging.h */,
+				6D598DF1302275ADBFAC2B0D8A1A4FF3 /* Frameworks */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		C94B4839E2C7C4AD44B949FA8EDF7B73 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6AE910585A5D5A35838554ECCBD55BC3 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		CB249A5818CCCA32C28E7C232C877673 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2C5DFFF28038512D2C07B16A54997 /* Firebase */,
+				58048180765F79723A51B823F5057173 /* FirebaseAnalytics */,
+				CDE37B60BA499833EF4A8E291CAEF9BA /* FirebaseDatabase */,
+				BFBBA74CA91F2D5437E5483DBC508CCB /* FirebaseInstanceID */,
+				C7CF3F12F325636CA27201B12207DBDD /* FirebaseMessaging */,
+				F73701E38557D61C975294D73651F377 /* FirebaseStorage */,
+				BD35C4AF04C60BF6B15A138F6B5A23DD /* GoogleInterchangeUtilities */,
+				C94B4839E2C7C4AD44B949FA8EDF7B73 /* GoogleIPhoneUtilities */,
+				513438FB501CF064660ECAB50ACB55F4 /* GoogleNetworkingUtilities */,
+				E661C29FA9F51E9B5D7F3BE2F162E435 /* GoogleSymbolUtilities */,
+				4E8B968A30757F50E83FB4C647C6FD8E /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCE219ED7032302562007D21273A6E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968340620DBC3BF61CBAAD132496164F /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE37B60BA499833EF4A8E291CAEF9BA /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				11A1BAABA3110DFB0C8760FB24AE540E /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		E661C29FA9F51E9B5D7F3BE2F162E435 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				ABB16B0405D258E0282E803AA0EF60DC /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		F73701E38557D61C975294D73651F377 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				58FAA52F2ABDB15EB9C58AC18C5126CF /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		896597369C668C6EA21EDEF27680EE37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B636DC526528FF3E458AD02AFAB1D /* Pods-Dale SalsaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F782F8B394F0FBA3D1F08CC0E33ABBBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969F31F0FDB7BA34E6AD354F2C116E99 /* Pods-Dale Salsa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		342B2FB496B638088C3C7C0C2722BA85 /* Pods-Dale Salsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953F742A62EFFE2FCA800C461554CC8D /* Build configuration list for PBXNativeTarget "Pods-Dale Salsa" */;
+			buildPhases = (
+				EC4828E4B4FE4A38CA98D9EE1719B921 /* Sources */,
+				1143E05976BBC4D790E6534359ACE893 /* Frameworks */,
+				F782F8B394F0FBA3D1F08CC0E33ABBBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dale Salsa";
+			productName = "Pods-Dale Salsa";
+			productReference = 301DA7F3DBFB579F3A66DF2B92B13AAF /* Pods_Dale_Salsa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7CFEC9F63E05AD6C5D49936BD8BB732 /* Pods-Dale SalsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76D23C5CED310E0CA56EDDB171FDEA3 /* Build configuration list for PBXNativeTarget "Pods-Dale SalsaTests" */;
+			buildPhases = (
+				9FD6A57E65488B5A23345E3926A91C50 /* Sources */,
+				674526812D139C65F84545AC70556652 /* Frameworks */,
+				896597369C668C6EA21EDEF27680EE37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dale SalsaTests";
+			productName = "Pods-Dale SalsaTests";
+			productReference = 040214DC6CD075B91799313BADFA98EB /* Pods_Dale_SalsaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A9AF7747755509D910DD846BD084EE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342B2FB496B638088C3C7C0C2722BA85 /* Pods-Dale Salsa */,
+				B7CFEC9F63E05AD6C5D49936BD8BB732 /* Pods-Dale SalsaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD6A57E65488B5A23345E3926A91C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942ECD275303198A289ACF6493920737 /* Pods-Dale SalsaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4828E4B4FE4A38CA98D9EE1719B921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A753F6EFD8F38D9E5460EE76C3544 /* Pods-Dale Salsa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58E86A85611F68B3AEBD3C88DEDC4CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C08283728767536FFC1451B08BCD1E0 /* Pods-Dale Salsa.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dale Salsa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dale Salsa/Pods-Dale Salsa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dale_Salsa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FA62AE2FEA68C8C1C10CEBC1859E5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504F584874310966CAB0443E92E9D214 /* Pods-Dale Salsa.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dale Salsa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dale Salsa/Pods-Dale Salsa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dale_Salsa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C773AF28085ADD7CDD473EC9724C3034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C560637B5E3424DC5ECFC1928CE431 /* Pods-Dale SalsaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dale SalsaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dale SalsaTests/Pods-Dale SalsaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dale_SalsaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0DDE242DB26A2579405EF05F06BCE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C790148366E86EA2CF04D0FC65521A5C /* Pods-Dale SalsaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dale SalsaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dale SalsaTests/Pods-Dale SalsaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Dale_SalsaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953F742A62EFFE2FCA800C461554CC8D /* Build configuration list for PBXNativeTarget "Pods-Dale Salsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E86A85611F68B3AEBD3C88DEDC4CD3 /* Debug */,
+				8FA62AE2FEA68C8C1C10CEBC1859E5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76D23C5CED310E0CA56EDDB171FDEA3 /* Build configuration list for PBXNativeTarget "Pods-Dale SalsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DDE242DB26A2579405EF05F06BCE82 /* Debug */,
+				C773AF28085ADD7CDD473EC9724C3034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

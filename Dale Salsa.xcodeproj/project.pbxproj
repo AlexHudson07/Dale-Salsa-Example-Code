@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BEBD344E06C238A6917C336 /* Pods_Dale_Salsa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED024D673975D4BC4E468EC /* Pods_Dale_Salsa.framework */; };
+		4F0630441CE6DEA500C02EE2 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0630421CE6DEA500C02EE2 /* Fabric.framework */; };
+		4F0630451CE6DEA500C02EE2 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0630431CE6DEA500C02EE2 /* Crashlytics.framework */; };
+		4F0963411CF7E3BD00B62B24 /* TutorialViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0963401CF7E3BD00B62B24 /* TutorialViewControllerTests.swift */; };
+		4F1E20321DC58ABB00D40999 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E20311DC58ABB00D40999 /* SongTests.swift */; };
+		4F3206641CF269E900D7D6EC /* SideMenuViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3206631CF269E900D7D6EC /* SideMenuViewControllerTests.swift */; };
+		4F3B71BD1CEAA8D5001FE199 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B71BC1CEAA8D5001FE199 /* SWRevealViewController.m */; };
+		4F3B71C01CEAAACC001FE199 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B71BE1CEAAACC001FE199 /* SideMenuViewController.swift */; };
+		4F3B71C11CEAAACC001FE199 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3B71BF1CEAAACC001FE199 /* SideMenuViewController.xib */; };
+		4F3B71C31CEAAD90001FE199 /* TapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F3B71C21CEAAD90001FE199 /* TapViewController.xib */; };
+		4F409EC51DD955FC00BE4AD0 /* ArtistInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F409EC31DD955FC00BE4AD0 /* ArtistInfoViewController.swift */; };
+		4F409EC61DD955FC00BE4AD0 /* ArtistInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F409EC41DD955FC00BE4AD0 /* ArtistInfoViewController.xib */; };
+		4F45BC261DB471E40098EDD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F45BC251DB471E40098EDD6 /* GoogleService-Info.plist */; };
+		4F45BC281DB47D1C0098EDD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F45BC251DB471E40098EDD6 /* GoogleService-Info.plist */; };
+		4F5E37961CEC196200A3A302 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E37941CEC196200A3A302 /* SongCell.swift */; };
+		4F5E37971CEC196200A3A302 /* SongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E37951CEC196200A3A302 /* SongCell.xib */; };
+		4F5E379D1CEE566B00A3A302 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E379B1CEE566B00A3A302 /* TutorialViewController.swift */; };
+		4F5E379E1CEE566B00A3A302 /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E379C1CEE566B00A3A302 /* TutorialViewController.xib */; };
+		4F6357981D026F0F00738B92 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6357971D026F0F00738B92 /* Song.swift */; };
+		4F7A586E1CE54F0E00A939FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A586D1CE54F0E00A939FB /* AppDelegate.swift */; };
+		4F7A58701CE54F0E00A939FB /* TapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A586F1CE54F0E00A939FB /* TapViewController.swift */; };
+		4F7A58751CE54F0E00A939FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A58741CE54F0E00A939FB /* Assets.xcassets */; };
+		4F7A58781CE54F0E00A939FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A58761CE54F0E00A939FB /* LaunchScreen.storyboard */; };
+		4F7A588E1CE54FBF00A939FB /* SalsaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A588D1CE54FBF00A939FB /* SalsaColors.swift */; };
+		4F7A58921CE553F100A939FB /* Salsa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A58911CE5516B00A939FB /* Salsa-Regular.ttf */; };
+		4F98E3CC1DD52F48004FFC84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98E3CB1DD52F48004FFC84 /* Constants.swift */; };
+		4F98E3D01DD53E88004FFC84 /* ContantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98E3CF1DD53E88004FFC84 /* ContantsTests.swift */; };
+		4F9E7E551DED0D1E00E125ED /* SlideLeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E7E531DED0D1E00E125ED /* SlideLeftCell.swift */; };
+		4F9E7E561DED0D1E00E125ED /* SlideLeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E7E541DED0D1E00E125ED /* SlideLeftCell.xib */; };
+		4F9F1D871DD00046001EC979 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F1D861DD00046001EC979 /* SongManager.swift */; };
+		4F9F1D891DD00186001EC979 /* SongManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F1D881DD00186001EC979 /* SongManagerTests.swift */; };
+		4FCDF2C51DDE82CE0026ECC8 /* ArtistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDF2C41DDE82CE0026ECC8 /* ArtistTests.swift */; };
+		4FD487901DDAC19900EFA660 /* ArtistInfoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD4878F1DDAC19900EFA660 /* ArtistInfoViewControllerTests.swift */; };
+		4FDC0D801DA6150B00C0F38B /* TapViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC0D7F1DA6150B00C0F38B /* TapViewControllerTests.swift */; };
+		4FDC0D821DA615F400C0F38B /* Dale_SalsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC0D811DA615F400C0F38B /* Dale_SalsaTests.swift */; };
+		4FEDC8B81DB84E160011D212 /* Song+Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDC8B71DB84E160011D212 /* Song+Parse.swift */; };
+		4FFD77DB1D9D72E000B7C517 /* UnoDosTres.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FFD77DA1D9D72E000B7C517 /* UnoDosTres.mp3 */; };
+		4FFE95591DDBF2E2004FC8F4 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE95581DDBF2E2004FC8F4 /* Artist.swift */; };
+		4FFE955B1DDBF5CB004FC8F4 /* Artist+Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE955A1DDBF5CB004FC8F4 /* Artist+Parse.swift */; };
+		DE6FE1174B0DEE2E18821348 /* Pods_Dale_SalsaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE5C10424E465BAB551FD3 /* Pods_Dale_SalsaTests.framework */; };
+		FA1D8F521E34377700650B39 /* UnlockSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D8F501E34377700650B39 /* UnlockSongsViewController.swift */; };
+		FA1D8F531E34377700650B39 /* UnlockSongsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1D8F511E34377700650B39 /* UnlockSongsViewController.xib */; };
+		FA1D8F551E34770E00650B39 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1D8F541E34770E00650B39 /* StoreKit.framework */; };
+		FA1D8F571E347A9900650B39 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D8F561E347A9900650B39 /* IAPHelper.swift */; };
+		FAE2EA011E24896C00C2FB20 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE2EA031E24896C00C2FB20 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F7A587F1CE54F0E00A939FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7A58621CE54F0E00A939FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A58691CE54F0E00A939FB;
+			remoteInfo = "Dale Salsa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002EFF67788B080ABFEB03E /* Pods-Dale SalsaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dale SalsaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dale SalsaTests/Pods-Dale SalsaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0630421CE6DEA500C02EE2 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = "Dale Salsa/Fabric.framework"; sourceTree = "<group>"; };
+		4F0630431CE6DEA500C02EE2 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = "Dale Salsa/Crashlytics.framework"; sourceTree = "<group>"; };
+		4F0963401CF7E3BD00B62B24 /* TutorialViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewControllerTests.swift; sourceTree = "<group>"; };
+		4F1E20311DC58ABB00D40999 /* SongTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTests.swift; sourceTree = "<group>"; };
+		4F3206631CF269E900D7D6EC /* SideMenuViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerTests.swift; sourceTree = "<group>"; };
+		4F3B71BA1CEAA8D4001FE199 /* Dale Salsa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dale Salsa-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		4F3B71BB1CEAA8D5001FE199 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		4F3B71BC1CEAA8D5001FE199 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4F3B71BE1CEAAACC001FE199 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4F3B71BF1CEAAACC001FE199 /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		4F3B71C21CEAAD90001FE199 /* TapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapViewController.xib; sourceTree = "<group>"; };
+		4F409EC31DD955FC00BE4AD0 /* ArtistInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistInfoViewController.swift; sourceTree = "<group>"; };
+		4F409EC41DD955FC00BE4AD0 /* ArtistInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistInfoViewController.xib; sourceTree = "<group>"; };
+		4F45BC251DB471E40098EDD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F5E37941CEC196200A3A302 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		4F5E37951CEC196200A3A302 /* SongCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongCell.xib; sourceTree = "<group>"; };
+		4F5E379B1CEE566B00A3A302 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		4F5E379C1CEE566B00A3A302 /* TutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		4F6357971D026F0F00738B92 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		4F7A586A1CE54F0E00A939FB /* Dale Salsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dale Salsa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7A586D1CE54F0E00A939FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F7A586F1CE54F0E00A939FB /* TapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewController.swift; sourceTree = "<group>"; };
+		4F7A58741CE54F0E00A939FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F7A58771CE54F0E00A939FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F7A58791CE54F0E00A939FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7A587E1CE54F0E00A939FB /* Dale SalsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dale SalsaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7A58841CE54F0E00A939FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7A588D1CE54FBF00A939FB /* SalsaColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalsaColors.swift; sourceTree = "<group>"; };
+		4F7A58911CE5516B00A939FB /* Salsa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Salsa-Regular.ttf"; sourceTree = "<group>"; };
+		4F98E3CB1DD52F48004FFC84 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F98E3CF1DD53E88004FFC84 /* ContantsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContantsTests.swift; sourceTree = "<group>"; };
+		4F9E7E531DED0D1E00E125ED /* SlideLeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideLeftCell.swift; sourceTree = "<group>"; };
+		4F9E7E541DED0D1E00E125ED /* SlideLeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideLeftCell.xib; sourceTree = "<group>"; };
+		4F9F1D861DD00046001EC979 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
+		4F9F1D881DD00186001EC979 /* SongManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManagerTests.swift; sourceTree = "<group>"; };
+		4FCDF2C41DDE82CE0026ECC8 /* ArtistTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTests.swift; sourceTree = "<group>"; };
+		4FD4878F1DDAC19900EFA660 /* ArtistInfoViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistInfoViewControllerTests.swift; sourceTree = "<group>"; };
+		4FDC0D7F1DA6150B00C0F38B /* TapViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapViewControllerTests.swift; sourceTree = "<group>"; };
+		4FDC0D811DA615F400C0F38B /* Dale_SalsaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dale_SalsaTests.swift; sourceTree = "<group>"; };
+		4FEDC8B61DB823F10011D212 /* Dale Salsa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dale Salsa.entitlements"; sourceTree = "<group>"; };
+		4FEDC8B71DB84E160011D212 /* Song+Parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Song+Parse.swift"; sourceTree = "<group>"; };
+		4FFD77DA1D9D72E000B7C517 /* UnoDosTres.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UnoDosTres.mp3; sourceTree = "<group>"; };
+		4FFE95581DDBF2E2004FC8F4 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		4FFE955A1DDBF5CB004FC8F4 /* Artist+Parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Artist+Parse.swift"; sourceTree = "<group>"; };
+		65AE5C10424E465BAB551FD3 /* Pods_Dale_SalsaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dale_SalsaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1412092F1ADB074F863502 /* Pods-Dale Salsa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dale Salsa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dale Salsa/Pods-Dale Salsa.debug.xcconfig"; sourceTree = "<group>"; };
+		AED024D673975D4BC4E468EC /* Pods_Dale_Salsa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dale_Salsa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FD3CBC21C7103A74F00684 /* Pods-Dale SalsaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dale SalsaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dale SalsaTests/Pods-Dale SalsaTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD6C87BEC8929ABD6E78A3DE /* Pods-Dale Salsa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dale Salsa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dale Salsa/Pods-Dale Salsa.release.xcconfig"; sourceTree = "<group>"; };
+		FA1D8F501E34377700650B39 /* UnlockSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockSongsViewController.swift; sourceTree = "<group>"; };
+		FA1D8F511E34377700650B39 /* UnlockSongsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnlockSongsViewController.xib; sourceTree = "<group>"; };
+		FA1D8F541E34770E00650B39 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FA1D8F561E347A9900650B39 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		FAE2EA041E24897500C2FB20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FAE2EA051E2489E700C2FB20 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7A58671CE54F0E00A939FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0630451CE6DEA500C02EE2 /* Crashlytics.framework in Frameworks */,
+				4F0630441CE6DEA500C02EE2 /* Fabric.framework in Frameworks */,
+				1BEBD344E06C238A6917C336 /* Pods_Dale_Salsa.framework in Frameworks */,
+				FA1D8F551E34770E00650B39 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7A587B1CE54F0E00A939FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6FE1174B0DEE2E18821348 /* Pods_Dale_SalsaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB39BCD7A861D80AB34912C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1412092F1ADB074F863502 /* Pods-Dale Salsa.debug.xcconfig */,
+				DD6C87BEC8929ABD6E78A3DE /* Pods-Dale Salsa.release.xcconfig */,
+				0002EFF67788B080ABFEB03E /* Pods-Dale SalsaTests.debug.xcconfig */,
+				D9FD3CBC21C7103A74F00684 /* Pods-Dale SalsaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F5E37981CED020E00A3A302 /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F0630421CE6DEA500C02EE2 /* Fabric.framework */,
+				4F0630431CE6DEA500C02EE2 /* Crashlytics.framework */,
+				4F3B71BB1CEAA8D5001FE199 /* SWRevealViewController.h */,
+				4F3B71BC1CEAA8D5001FE199 /* SWRevealViewController.m */,
+			);
+			name = Framworks;
+			sourceTree = "<group>";
+		};
+		4F5E37991CED023300A3A302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FFD77DA1D9D72E000B7C517 /* UnoDosTres.mp3 */,
+				4F7A58911CE5516B00A939FB /* Salsa-Regular.ttf */,
+				4F7A58741CE54F0E00A939FB /* Assets.xcassets */,
+				4F7A58791CE54F0E00A939FB /* Info.plist */,
+				4F3B71BA1CEAA8D4001FE199 /* Dale Salsa-Bridging-Header.h */,
+				FAE2EA031E24896C00C2FB20 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F7A58611CE54F0E00A939FB = {
+			isa = PBXGroup;
+			children = (
+				4F7A586C1CE54F0E00A939FB /* Dale Salsa */,
+				4F5E37981CED020E00A3A302 /* Framworks */,
+				4F7A58811CE54F0E00A939FB /* Dale SalsaTests */,
+				4F7A586B1CE54F0E00A939FB /* Products */,
+				3FB39BCD7A861D80AB34912C /* Pods */,
+				87D5868CC42BA3403612872E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F7A586B1CE54F0E00A939FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A586A1CE54F0E00A939FB /* Dale Salsa.app */,
+				4F7A587E1CE54F0E00A939FB /* Dale SalsaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F7A586C1CE54F0E00A939FB /* Dale Salsa */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDC8B61DB823F10011D212 /* Dale Salsa.entitlements */,
+				4F7A586D1CE54F0E00A939FB /* AppDelegate.swift */,
+				4F6357971D026F0F00738B92 /* Song.swift */,
+				4FEDC8B71DB84E160011D212 /* Song+Parse.swift */,
+				4FFE95581DDBF2E2004FC8F4 /* Artist.swift */,
+				4FFE955A1DDBF5CB004FC8F4 /* Artist+Parse.swift */,
+				4F9F1D861DD00046001EC979 /* SongManager.swift */,
+				4F7A586F1CE54F0E00A939FB /* TapViewController.swift */,
+				4F3B71C21CEAAD90001FE199 /* TapViewController.xib */,
+				4F3B71BE1CEAAACC001FE199 /* SideMenuViewController.swift */,
+				4F3B71BF1CEAAACC001FE199 /* SideMenuViewController.xib */,
+				FA1D8F501E34377700650B39 /* UnlockSongsViewController.swift */,
+				FA1D8F511E34377700650B39 /* UnlockSongsViewController.xib */,
+				FA1D8F561E347A9900650B39 /* IAPHelper.swift */,
+				4F5E37941CEC196200A3A302 /* SongCell.swift */,
+				4F5E37951CEC196200A3A302 /* SongCell.xib */,
+				4F9E7E531DED0D1E00E125ED /* SlideLeftCell.swift */,
+				4F9E7E541DED0D1E00E125ED /* SlideLeftCell.xib */,
+				4F409EC31DD955FC00BE4AD0 /* ArtistInfoViewController.swift */,
+				4F409EC41DD955FC00BE4AD0 /* ArtistInfoViewController.xib */,
+				4F5E379B1CEE566B00A3A302 /* TutorialViewController.swift */,
+				4F5E379C1CEE566B00A3A302 /* TutorialViewController.xib */,
+				4F7A58761CE54F0E00A939FB /* LaunchScreen.storyboard */,
+				4F7A588D1CE54FBF00A939FB /* SalsaColors.swift */,
+				4F45BC251DB471E40098EDD6 /* GoogleService-Info.plist */,
+				4F98E3CB1DD52F48004FFC84 /* Constants.swift */,
+				4F5E37991CED023300A3A302 /* Supporting Files */,
+			);
+			path = "Dale Salsa";
+			sourceTree = "<group>";
+		};
+		4F7A58811CE54F0E00A939FB /* Dale SalsaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC0D811DA615F400C0F38B /* Dale_SalsaTests.swift */,
+				4FDC0D7F1DA6150B00C0F38B /* TapViewControllerTests.swift */,
+				4F7A58841CE54F0E00A939FB /* Info.plist */,
+				4F3206631CF269E900D7D6EC /* SideMenuViewControllerTests.swift */,
+				4FD4878F1DDAC19900EFA660 /* ArtistInfoViewControllerTests.swift */,
+				4F0963401CF7E3BD00B62B24 /* TutorialViewControllerTests.swift */,
+				4F1E20311DC58ABB00D40999 /* SongTests.swift */,
+				4F9F1D881DD00186001EC979 /* SongManagerTests.swift */,
+				4F98E3CF1DD53E88004FFC84 /* ContantsTests.swift */,
+				4FCDF2C41DDE82CE0026ECC8 /* ArtistTests.swift */,
+			);
+			path = "Dale SalsaTests";
+			sourceTree = "<group>";
+		};
+		87D5868CC42BA3403612872E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D8F541E34770E00650B39 /* StoreKit.framework */,
+				AED024D673975D4BC4E468EC /* Pods_Dale_Salsa.framework */,
+				65AE5C10424E465BAB551FD3 /* Pods_Dale_SalsaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F7A58691CE54F0E00A939FB /* Dale Salsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7A58871CE54F0E00A939FB /* Build configuration list for PBXNativeTarget "Dale Salsa" */;
+			buildPhases = (
+				0D105831968029529341CA19 /* [CP] Check Pods Manifest.lock */,
+				4F7A58661CE54F0E00A939FB /* Sources */,
+				4F7A58671CE54F0E00A939FB /* Frameworks */,
+				4F7A58681CE54F0E00A939FB /* Resources */,
+				4F0630411CE6DE5D00C02EE2 /* ShellScript */,
+				826DE0D01AEE03D33C47BB3E /* [CP] Embed Pods Frameworks */,
+				488F5B71D199453B1E3C0E14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dale Salsa";
+			productName = "Dale Salsa";
+			productReference = 4F7A586A1CE54F0E00A939FB /* Dale Salsa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F7A587D1CE54F0E00A939FB /* Dale SalsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7A588A1CE54F0E00A939FB /* Build configuration list for PBXNativeTarget "Dale SalsaTests" */;
+			buildPhases = (
+				4EC28906FAF93E602F35E11B /* [CP] Check Pods Manifest.lock */,
+				4F7A587A1CE54F0E00A939FB /* Sources */,
+				4F7A587B1CE54F0E00A939FB /* Frameworks */,
+				4F7A587C1CE54F0E00A939FB /* Resources */,
+				79DD3D34677106E4F76E3D63 /* [CP] Embed Pods Frameworks */,
+				BFFCAEBAA8A7A6B5B573DEA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7A58801CE54F0E00A939FB /* PBXTargetDependency */,
+			);
+			name = "Dale SalsaTests";
+			productName = "Dale SalsaTests";
+			productReference = 4F7A587E1CE54F0E00A939FB /* Dale SalsaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F7A58621CE54F0E00A939FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HudsonAppls;
+				TargetAttributes = {
+					4F7A58691CE54F0E00A939FB = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					4F7A587D1CE54F0E00A939FB = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 4F7A58691CE54F0E00A939FB;
+					};
+				};
+			};
+			buildConfigurationList = 4F7A58651CE54F0E00A939FB /* Build configuration list for PBXProject "Dale Salsa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F7A58611CE54F0E00A939FB;
+			productRefGroup = 4F7A586B1CE54F0E00A939FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F7A58691CE54F0E00A939FB /* Dale Salsa */,
+				4F7A587D1CE54F0E00A939FB /* Dale SalsaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F7A58681CE54F0E00A939FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7A58781CE54F0E00A939FB /* LaunchScreen.storyboard in Resources */,
+				FAE2EA011E24896C00C2FB20 /* Localizable.strings in Resources */,
+				4F409EC61DD955FC00BE4AD0 /* ArtistInfoViewController.xib in Resources */,
+				4F5E37971CEC196200A3A302 /* SongCell.xib in Resources */,
+				4F45BC261DB471E40098EDD6 /* GoogleService-Info.plist in Resources */,
+				4F9E7E561DED0D1E00E125ED /* SlideLeftCell.xib in Resources */,
+				4FFD77DB1D9D72E000B7C517 /* UnoDosTres.mp3 in Resources */,
+				4F3B71C11CEAAACC001FE199 /* SideMenuViewController.xib in Resources */,
+				FA1D8F531E34377700650B39 /* UnlockSongsViewController.xib in Resources */,
+				4F7A58751CE54F0E00A939FB /* Assets.xcassets in Resources */,
+				4F3B71C31CEAAD90001FE199 /* TapViewController.xib in Resources */,
+				4F5E379E1CEE566B00A3A302 /* TutorialViewController.xib in Resources */,
+				4F7A58921CE553F100A939FB /* Salsa-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7A587C1CE54F0E00A939FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F45BC281DB47D1C0098EDD6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D105831968029529341CA19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		488F5B71D199453B1E3C0E14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dale Salsa/Pods-Dale Salsa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC28906FAF93E602F35E11B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0630411CE6DE5D00C02EE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run e3fe8300c88f02d0846babf481ffda5cad5bf2b8 35192f3c1864f70aa2d7a0232c31fdae8b49cdfe3ae9f374233778ca9e5f695c";
+		};
+		79DD3D34677106E4F76E3D63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dale SalsaTests/Pods-Dale SalsaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826DE0D01AEE03D33C47BB3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dale Salsa/Pods-Dale Salsa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFCAEBAA8A7A6B5B573DEA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dale SalsaTests/Pods-Dale SalsaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7A58661CE54F0E00A939FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7A588E1CE54FBF00A939FB /* SalsaColors.swift in Sources */,
+				4F98E3CC1DD52F48004FFC84 /* Constants.swift in Sources */,
+				4F5E379D1CEE566B00A3A302 /* TutorialViewController.swift in Sources */,
+				4F9F1D871DD00046001EC979 /* SongManager.swift in Sources */,
+				4F6357981D026F0F00738B92 /* Song.swift in Sources */,
+				4F7A58701CE54F0E00A939FB /* TapViewController.swift in Sources */,
+				4FFE955B1DDBF5CB004FC8F4 /* Artist+Parse.swift in Sources */,
+				FA1D8F571E347A9900650B39 /* IAPHelper.swift in Sources */,
+				4F7A586E1CE54F0E00A939FB /* AppDelegate.swift in Sources */,
+				4F3B71C01CEAAACC001FE199 /* SideMenuViewController.swift in Sources */,
+				4F3B71BD1CEAA8D5001FE199 /* SWRevealViewController.m in Sources */,
+				4FFE95591DDBF2E2004FC8F4 /* Artist.swift in Sources */,
+				4FEDC8B81DB84E160011D212 /* Song+Parse.swift in Sources */,
+				4F9E7E551DED0D1E00E125ED /* SlideLeftCell.swift in Sources */,
+				4F5E37961CEC196200A3A302 /* SongCell.swift in Sources */,
+				4F409EC51DD955FC00BE4AD0 /* ArtistInfoViewController.swift in Sources */,
+				FA1D8F521E34377700650B39 /* UnlockSongsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7A587A1CE54F0E00A939FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F98E3D01DD53E88004FFC84 /* ContantsTests.swift in Sources */,
+				4FDC0D821DA615F400C0F38B /* Dale_SalsaTests.swift in Sources */,
+				4F3206641CF269E900D7D6EC /* SideMenuViewControllerTests.swift in Sources */,
+				4FD487901DDAC19900EFA660 /* ArtistInfoViewControllerTests.swift in Sources */,
+				4F9F1D891DD00186001EC979 /* SongManagerTests.swift in Sources */,
+				4FCDF2C51DDE82CE0026ECC8 /* ArtistTests.swift in Sources */,
+				4F0963411CF7E3BD00B62B24 /* TutorialViewControllerTests.swift in Sources */,
+				4FDC0D801DA6150B00C0F38B /* TapViewControllerTests.swift in Sources */,
+				4F1E20321DC58ABB00D40999 /* SongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F7A58801CE54F0E00A939FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7A58691CE54F0E00A939FB /* Dale Salsa */;
+			targetProxy = 4F7A587F1CE54F0E00A939FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F7A58761CE54F0E00A939FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F7A58771CE54F0E00A939FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE2EA031E24896C00C2FB20 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE2EA041E24897500C2FB20 /* en */,
+				FAE2EA051E2489E700C2FB20 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F7A58851CE54F0E00A939FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F7A58861CE54F0E00A939FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F7A58881CE54F0E00A939FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1412092F1ADB074F863502 /* Pods-Dale Salsa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Dale Salsa/Dale Salsa.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = "Dale Salsa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dale Salsa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4F7A58891CE54F0E00A939FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6C87BEC8929ABD6E78A3DE /* Pods-Dale Salsa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Dale Salsa/Dale Salsa.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = "Dale Salsa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = A;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dale Salsa-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4F7A588B1CE54F0E00A939FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0002EFF67788B080ABFEB03E /* Pods-Dale SalsaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dale SalsaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HudsonApps.Dale-SalsaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dale Salsa.app/Dale Salsa";
+			};
+			name = Debug;
+		};
+		4F7A588C1CE54F0E00A939FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FD3CBC21C7103A74F00684 /* Pods-Dale SalsaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dale SalsaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HudsonApps.Dale-SalsaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dale Salsa.app/Dale Salsa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7A58651CE54F0E00A939FB /* Build configuration list for PBXProject "Dale Salsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7A58851CE54F0E00A939FB /* Debug */,
+				4F7A58861CE54F0E00A939FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7A58871CE54F0E00A939FB /* Build configuration list for PBXNativeTarget "Dale Salsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7A58881CE54F0E00A939FB /* Debug */,
+				4F7A58891CE54F0E00A939FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7A588A1CE54F0E00A939FB /* Build configuration list for PBXNativeTarget "Dale SalsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7A588B1CE54F0E00A939FB /* Debug */,
+				4F7A588C1CE54F0E00A939FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F7A58621CE54F0E00A939FB /* Project object */;
+}

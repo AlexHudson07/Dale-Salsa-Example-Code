@@ -1,0 +1,82 @@
+// Spanish
+
+// TapViewController
+"tap-viewController.status-label.Dale.text" = "DALE!!!";
+"tap-viewController.status-label.Almost.text" = "ESTAS CERCA!!";
+"tap-viewController.status-label.Focus.text" = "APLICATE!";
+"tap-viewController.gender-button.male.text" = "Hombres";
+"tap-viewController.gender-button.female.text" = "Mujeres";
+"tap-viewController.start-button.start.text" = "Comenzar";
+"tap-viewController.start-button.pause.text" = "Pausa";
+"tap-viewController.restart-button.title" = "Reiniciar";
+
+// SideMenuViewController
+"sideMenu-viewController.songs-label.text" = "Canciones";
+"sideMenu-viewController.download-button.title" = "Descargar";
+"sideMenu-viewController.download-button.unlock.title" = "Desbloquear";
+"sideMenu-viewController.slide-label.text" = "Desliza para info";
+"sideMenu-viewController.feedback-button.title" = "Dar Opinion";
+"sideMenu-viewController.tutorial-button.title" = "Tutorial";
+
+// TutorialViewController
+"tutorial-viewController.next-button.title" = "Siguiente";
+"tutorial-viewController.tap-label.text" = "Presiona";
+
+"tutorial-viewController.welcome-step.main-Label.text" = "Bienvenido a Dale Salsa";
+"tutorial-viewController.welcome-step.detail-Label.text" = "Para empezar necesitas las dos huellas";
+"tutorial-viewController.welcome-validate.main-Label.text" = "Muy Bien!";
+
+"tutorial-viewController.pick-gender-step.main-Label.text" = "¿Eres hombre o mujer?";
+
+"tutorial-viewController.gender-picked.main-Label.female.text" = "¡Eres mujer!";
+"tutorial-viewController.gender-picked.main-Label.male.text" = "¡Eres hombre!";
+
+"tutorial-viewController.change-gender-step.main-Label.text" = "Puedes cambiar tu genero cuando quieras";
+"tutorial-viewController.change-gender-step.detail-Label.text" = "Aún a mitad de la canción!!";
+
+"tutorial-viewController.screen-split-step.main-Label.text" = "Mientras juegas la pantalla se divide en dos";
+"tutorial-viewController.screen-split-step.detail-Label.text" = "Pie izquierdo     Pie derecho";
+"tutorial-viewController.screen-split-validate.main-Label.text" = "¡Ya Lo Tienes!";
+
+"tutorial-viewController.count-step.main-Label.text" = "Cuando empieza la canción, escucha el ritmo";
+"tutorial-viewController.count-step.detail-Label.text" = "Empieza tu cuenta";
+
+"tutorial-viewController.one.text" = "1";
+"tutorial-viewController.two.text" = "2";
+"tutorial-viewController.three.text" = "3";
+"tutorial-viewController.five.text" = "5";
+"tutorial-viewController.six.text" = "6";
+"tutorial-viewController.seven.text" = "7";
+
+"tutorial-viewController.count-complete.main-Label.text" = "¡Genial!";
+"tutorial-viewController.count-complete.detail-Label.text" = "¡Recuerda esta cuenta durante el juego!";
+
+"tutorial-viewController.accuracy-step.detail-Label.accurate.text" = "Cuando estes a tiempo, veras verde";
+"tutorial-viewController.accuracy-step.detail-Label.almost-Accurate.text" = "Cuando estes cerca del ritmo veras amarillo";
+"tutorial-viewController.accuracy-step.detail-Label.inaccurate.text" = "Y cuando estes fuera de ritmo verás rojo";
+
+"tutorial-viewController.guide-step.main-Label.text" = "Si te pierdes, veras ayuda";
+"tutorial-viewController.guide-step.detail-Label.text" = "Solo sigue las huellas";
+
+"tutorial-viewController.final-step.main-Label.text" = "¡Disfrutalo!";
+"tutorial-viewController.final-step.detail-Label.text" = "Presiona el botón de comenzar en cuanto estes listo";
+
+// ArtistInfoViewController
+"artistInfo-viewController.bio-label.text" = "";
+"artistInfo-viewController.buy-button.title" = "Comprar %@";
+
+// In App Purchase ViewController
+"in-app-purchase-viewController.info-label.text" = "Te gustaría desbloquear todas las canciones por sólo %@";
+
+"in-app-purchase-viewController.buy-button.title" = "Si, yo amo la salsa!!!";
+"in-app-purchase-viewController.back-button.puppy.title" = "No.. soy agarrado!";
+"in-app-purchase-viewController.back-button.normal.title" = "Regresar";
+
+"in-app-purchase-viewController.redeem-button.title" = "Reinstalar conciones";
+"in-app-purchase-viewController.info-Label.restored.title" = "Compras reinstaladas";
+
+//Feedback Email
+"feed-back-email.subject" = "Dale Salsa feedback";
+"feed-back-email.message-body" = "Gracias por apoyar Dale Salsa! \nPor favor conteste estas preguntas para ayudarnos a entender sus necesidades. \n\n¿Qué te gusta de la aplicación? \n\n\n¿Qué es lo que no te gusta? \n\n\n¿Qué características le gustaría ver en futuras actualizaciones?";
+"feed-back-email.error" = "No se pudo conectar con tu correo electrónico";
+"feed-back-email.error-button.title" = "De acuerdo";

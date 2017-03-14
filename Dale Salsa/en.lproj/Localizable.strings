@@ -1,0 +1,83 @@
+// English
+
+// TapViewController
+"tap-viewController.status-label.Dale.text" = "DALE!!!";
+"tap-viewController.status-label.Almost.text" = "ALMOST!!";
+"tap-viewController.status-label.Focus.text" = "FOCUS!";
+"tap-viewController.gender-button.male.text" = "Men";
+"tap-viewController.gender-button.female.text" = "Ladies";
+"tap-viewController.start-button.start.text" = "Start";
+"tap-viewController.start-button.pause.text" = "Pause";
+"tap-viewController.restart-button.title" = "Restart";
+
+// SideMenuViewController
+"sideMenu-viewController.songs-label.text" = "Songs";
+"sideMenu-viewController.download-button.title" = "Download";
+"sideMenu-viewController.download-button.unlock.title" = "Unlock";
+"sideMenu-viewController.slide-label.text" = "Slide songs for info";
+"sideMenu-viewController.feedback-button.title" = "Give Feedback";
+"sideMenu-viewController.tutorial-button.title" = "Tutorial";
+
+// TutorialViewController
+"tutorial-viewController.next-button.title" = "Next";
+"tutorial-viewController.tap-label.text" = "Tap";
+
+"tutorial-viewController.welcome-step.main-Label.text" = "Welcome to Dale Salsa";
+"tutorial-viewController.welcome-step.detail-Label.text" = "To play you need both thumbs";
+"tutorial-viewController.welcome-validate.main-Label.text" = "Thats It!";
+
+"tutorial-viewController.pick-gender-step.main-Label.text" = "Are you a Lady or Gentlemen?";
+
+"tutorial-viewController.gender-picked.main-Label.female.text" = "You're a Lady!";
+"tutorial-viewController.gender-picked.main-Label.male.text" = "You're a Man!";
+
+"tutorial-viewController.change-gender-step.main-Label.text" = "You can change your gender at any time";
+"tutorial-viewController.change-gender-step.detail-Label.text" = "Even in the middle of a song!!";
+
+"tutorial-viewController.screen-split-step.main-Label.text" = "While playing the screen is split in two";
+"tutorial-viewController.screen-split-step.detail-Label.text" = "Left foot      Right foot";
+"tutorial-viewController.screen-split-validate.main-Label.text" = "You Got It!";
+
+"tutorial-viewController.count-step.main-Label.text" = "When a song is playing, listen to the beat.";
+"tutorial-viewController.count-step.detail-Label.text" = "Tap your counts";
+
+"tutorial-viewController.one.text" = "1";
+"tutorial-viewController.two.text" = "2";
+"tutorial-viewController.three.text" = "3";
+"tutorial-viewController.five.text" = "5";
+"tutorial-viewController.six.text" = "6";
+"tutorial-viewController.seven.text" = "7";
+
+"tutorial-viewController.count-complete.main-Label.text" = "Awesome!";
+"tutorial-viewController.count-complete.detail-Label.text" = "Remember these counts while playing!";
+
+"tutorial-viewController.accuracy-step.detail-Label.accurate.text" = "When you're on step you will see Green";
+"tutorial-viewController.accuracy-step.detail-Label.almost-Accurate.text" = "When you're almost there you see Yellow";
+"tutorial-viewController.accuracy-step.detail-Label.inaccurate.text" = "And when you're off you see Red";
+
+"tutorial-viewController.guide-step.main-Label.text" = "If you get lost you will get help";
+"tutorial-viewController.guide-step.detail-Label.text" = "Just follow these guides";
+
+"tutorial-viewController.final-step.main-Label.text" = "Enjoy!";
+"tutorial-viewController.final-step.detail-Label.text" = "Press the Start button when you're ready";
+
+// ArtistInfoViewController
+"artistInfo-viewController.bio-label.text" = "Bio:";
+"artistInfo-viewController.buy-button.title" = "Buy %@";
+
+// In App Purchase ViewController
+"in-app-purchase-viewController.info-label.text" = "Would you like to unlock all salsa songs for only %@?";
+
+"in-app-purchase-viewController.buy-button.title" = "Yes, I love Salsa!!!";
+"in-app-purchase-viewController.back-button.puppy.title" = "No..And I Hate Puppies";
+"in-app-purchase-viewController.back-button.normal.title" = "Back";
+
+"in-app-purchase-viewController.redeem-button.title" = "Restore Purchases";
+"in-app-purchase-viewController.info-Label.restored.title" = "Purchases Restored";
+
+//Feedback Email
+"feed-back-email.subject" = "Dale Salsa feedback";
+"feed-back-email.message-body" = "Thank you for supporting Dale Salsa! \nPlease answer these questions to help us understand your needs. \n\nWhat do you like about the app? \n\n\nWhat don't you like? \n\n\n What features would you like to see in future updates?";
+"feed-back-email.error" = "Sorry, Could not connect to your email.";
+"feed-back-email.error-button.title" = "Ok";
+

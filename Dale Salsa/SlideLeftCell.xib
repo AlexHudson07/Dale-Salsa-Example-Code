@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="slideLeftCellId" id="KGk-i7-Jjw" customClass="SlideLeftCell" customModule="Dale_Salsa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r9U-gR-TDx">
+                        <rect key="frame" x="16" y="0.0" width="288" height="33"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triangle" translatesAutoresizingMaskIntoConstraints="NO" id="6sj-s4-jy8">
+                                <rect key="frame" x="8" y="8" width="20" height="17"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="pcr-aO-deg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slide songs for info" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="KDs-t3-Ip2">
+                                <rect key="frame" x="36" y="0.5" width="242" height="33"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.15686274510000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KDs-t3-Ip2" firstAttribute="centerY" secondItem="r9U-gR-TDx" secondAttribute="centerY" id="2wC-63-4XZ"/>
+                            <constraint firstItem="KDs-t3-Ip2" firstAttribute="leading" secondItem="6sj-s4-jy8" secondAttribute="trailing" constant="8" id="B2x-4t-jPG"/>
+                            <constraint firstItem="6sj-s4-jy8" firstAttribute="top" secondItem="r9U-gR-TDx" secondAttribute="top" constant="8" id="a8f-Lu-rrV"/>
+                            <constraint firstItem="KDs-t3-Ip2" firstAttribute="height" secondItem="r9U-gR-TDx" secondAttribute="height" id="bPo-A5-fsW"/>
+                            <constraint firstItem="6sj-s4-jy8" firstAttribute="leading" secondItem="r9U-gR-TDx" secondAttribute="leading" constant="8" id="ehP-cw-nc9"/>
+                            <constraint firstAttribute="trailing" secondItem="KDs-t3-Ip2" secondAttribute="trailing" constant="10" id="kXN-el-aDN"/>
+                            <constraint firstAttribute="bottom" secondItem="6sj-s4-jy8" secondAttribute="bottom" constant="8" id="yqo-fM-RWf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="r9U-gR-TDx" secondAttribute="trailing" constant="16" id="O3Z-fr-BpU"/>
+                    <constraint firstItem="r9U-gR-TDx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="YPZ-Cd-zgU"/>
+                    <constraint firstItem="r9U-gR-TDx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ak4-E5-EpM"/>
+                    <constraint firstAttribute="bottom" secondItem="r9U-gR-TDx" secondAttribute="bottom" constant="12" id="tsC-c3-yvT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="containerView" destination="r9U-gR-TDx" id="Fx4-gF-IYi"/>
+                <outlet property="label" destination="KDs-t3-Ip2" id="Cn4-PD-v0H"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Triangle" width="25" height="28"/>
+    </resources>
+</document>

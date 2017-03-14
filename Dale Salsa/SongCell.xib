@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Salsa-Regular.ttf">
+            <string>Salsa-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="songCellId" rowHeight="122" id="KGk-i7-Jjw" customClass="SongCell" customModule="Dale_Salsa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGy-62-sPw" userLabel="Cell View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="108.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Salsa Genre" translatesAutoresizingMaskIntoConstraints="NO" id="L6h-ue-8Yr">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="108.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="wLL-Kd-eP4">
+                                <rect key="frame" x="130" y="15" width="130" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="swb-y8-MEb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Salsa-Regular" family="Salsa" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1e-oK-EvG">
+                                <rect key="frame" x="8" y="22" width="374" height="16"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBp-DN-zqL">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="16"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" id="pGA-hJ-rJe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40382922535211269" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="jBp-DN-zqL" firstAttribute="top" secondItem="z1e-oK-EvG" secondAttribute="top" id="FXt-ev-DVE"/>
+                                    <constraint firstAttribute="height" constant="16" id="X8p-HA-x9i"/>
+                                    <constraint firstAttribute="bottom" secondItem="jBp-DN-zqL" secondAttribute="bottom" id="ZDn-Iq-if5"/>
+                                    <constraint firstItem="jBp-DN-zqL" firstAttribute="leading" secondItem="z1e-oK-EvG" secondAttribute="leading" id="vtH-Zt-N6K"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UO0-rC-6QF">
+                                <rect key="frame" x="0.0" y="60" width="390" height="48.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XmC-dn-nou" userLabel="Song Info View">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="26"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="O2d-4p-JoT">
+                                                <rect key="frame" x="8" y="-2" width="374" height="31"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="22"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="CgE-rq-WB8"/>
+                                            <constraint firstItem="O2d-4p-JoT" firstAttribute="centerY" secondItem="XmC-dn-nou" secondAttribute="centerY" id="RqN-ZR-t28"/>
+                                            <constraint firstItem="O2d-4p-JoT" firstAttribute="leading" secondItem="XmC-dn-nou" secondAttribute="leading" constant="8" id="Ugx-dA-na4"/>
+                                            <constraint firstAttribute="trailing" secondItem="O2d-4p-JoT" secondAttribute="trailing" constant="8" id="c9e-iI-sBj"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9uf-JR-Mxf" userLabel="Artist Info View">
+                                        <rect key="frame" x="0.0" y="26" width="390" height="22.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="wAv-9Q-bsu">
+                                                <rect key="frame" x="8" y="-0.5" width="374" height="24"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="wAv-9Q-bsu" firstAttribute="centerY" secondItem="9uf-JR-Mxf" secondAttribute="centerY" id="3sq-Oh-V0P"/>
+                                            <constraint firstAttribute="trailing" secondItem="wAv-9Q-bsu" secondAttribute="trailing" constant="8" id="bEJ-TZ-ZUZ"/>
+                                            <constraint firstItem="wAv-9Q-bsu" firstAttribute="leading" secondItem="9uf-JR-Mxf" secondAttribute="leading" constant="8" id="dVs-EM-ynC"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z1e-oK-EvG" secondAttribute="trailing" constant="8" id="0LA-oY-m61"/>
+                            <constraint firstItem="z1e-oK-EvG" firstAttribute="centerY" secondItem="wLL-Kd-eP4" secondAttribute="centerY" id="3NH-pi-pHg"/>
+                            <constraint firstItem="UO0-rC-6QF" firstAttribute="top" secondItem="OGy-62-sPw" secondAttribute="top" constant="60" id="7KQ-kv-Jiu"/>
+                            <constraint firstItem="z1e-oK-EvG" firstAttribute="leading" secondItem="OGy-62-sPw" secondAttribute="leading" constant="8" id="7KU-75-d38"/>
+                            <constraint firstAttribute="trailing" secondItem="UO0-rC-6QF" secondAttribute="trailing" id="FVB-ZL-Hw5"/>
+                            <constraint firstItem="wLL-Kd-eP4" firstAttribute="centerX" secondItem="OGy-62-sPw" secondAttribute="centerX" id="Gkb-PJ-SmF"/>
+                            <constraint firstAttribute="trailing" secondItem="L6h-ue-8Yr" secondAttribute="trailing" id="HhV-Oj-HWY"/>
+                            <constraint firstItem="L6h-ue-8Yr" firstAttribute="leading" secondItem="OGy-62-sPw" secondAttribute="leading" id="OeI-3M-qaD"/>
+                            <constraint firstAttribute="bottom" secondItem="L6h-ue-8Yr" secondAttribute="bottom" id="OwB-fj-xIU"/>
+                            <constraint firstItem="wLL-Kd-eP4" firstAttribute="top" secondItem="OGy-62-sPw" secondAttribute="top" constant="15" id="P5b-du-NGS"/>
+                            <constraint firstItem="UO0-rC-6QF" firstAttribute="leading" secondItem="OGy-62-sPw" secondAttribute="leading" id="fUh-G5-ZPb"/>
+                            <constraint firstItem="L6h-ue-8Yr" firstAttribute="top" secondItem="OGy-62-sPw" secondAttribute="top" id="kqk-zT-JjM"/>
+                            <constraint firstAttribute="bottom" secondItem="UO0-rC-6QF" secondAttribute="bottom" id="mU2-lI-vQk"/>
+                            <constraint firstItem="UO0-rC-6QF" firstAttribute="top" secondItem="wLL-Kd-eP4" secondAttribute="bottom" constant="15" id="w8u-ax-XUY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.1960784314" green="0.1960784314" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="OGy-62-sPw" secondAttribute="trailing" id="KwW-Rv-fjw"/>
+                    <constraint firstItem="OGy-62-sPw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cDs-z9-zOM"/>
+                    <constraint firstAttribute="bottom" secondItem="OGy-62-sPw" secondAttribute="bottom" constant="12" id="whw-nb-UAu"/>
+                    <constraint firstItem="OGy-62-sPw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="x5u-ZF-tdG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistContainerView" destination="9uf-JR-Mxf" id="RkQ-qY-1DL"/>
+                <outlet property="artistInfoLabel" destination="wAv-9Q-bsu" id="s2s-pp-mEa"/>
+                <outlet property="coverArtImageView" destination="L6h-ue-8Yr" id="Soj-XN-GR4"/>
+                <outlet property="downloadLabel" destination="wLL-Kd-eP4" id="vA9-Jg-4X2"/>
+                <outlet property="fillerView" destination="jBp-DN-zqL" id="Z9N-6m-B6m"/>
+                <outlet property="progressView" destination="z1e-oK-EvG" id="Ese-n4-VUB"/>
+                <outlet property="songContainerView" destination="XmC-dn-nou" id="SHX-rc-Gej"/>
+                <outlet property="songInfoLabel" destination="O2d-4p-JoT" id="3ew-dW-CPm"/>
+            </connections>
+            <point key="canvasLocation" x="264" y="222.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Salsa Genre" width="360" height="175"/>
+    </resources>
+</document>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Salsa-Regular.ttf">
+            <string>Salsa-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TapViewController" customModule="Dale_Salsa" customModuleProvider="target">
+            <connections>
+                <outlet property="floorImageView" destination="8GV-BU-j5i" id="7Dp-Le-EPa"/>
+                <outlet property="genderButton" destination="K8P-OX-nOQ" id="cAD-tm-rmR"/>
+                <outlet property="leftButton" destination="gaM-fI-IKx" id="9ZO-FF-Fyl"/>
+                <outlet property="leftGuideImageView" destination="mXU-4o-LFO" id="f0F-gy-Lqd"/>
+                <outlet property="restartButton" destination="W9n-aF-K5w" id="lcG-aD-1dL"/>
+                <outlet property="rightButton" destination="e5m-EZ-7jQ" id="BMB-cQ-Abt"/>
+                <outlet property="rightGuideImageView" destination="EML-8i-XCG" id="QhX-UK-7og"/>
+                <outlet property="sideMenuButton" destination="Fon-fO-ZhG" id="Xis-aF-vKc"/>
+                <outlet property="startButton" destination="Kf6-b9-txQ" id="EyR-ow-Gny"/>
+                <outlet property="timerLabel" destination="R18-qG-MUB" id="Iga-Wj-hOr"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ZBc-JE-uRe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Floor" translatesAutoresizingMaskIntoConstraints="NO" id="8GV-BU-j5i">
+                    <rect key="frame" x="-40" y="-40" width="455" height="727"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-fI-IKx">
+                    <rect key="frame" x="0.0" y="0.0" width="188" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="dEW-pm-Tg2"/>
+                        <constraint firstAttribute="width" constant="150" id="zbJ-gK-yPh"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="dEW-pm-Tg2"/>
+                            <exclude reference="zbJ-gK-yPh"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="onLeftButtonPressed:event:" destination="-1" eventType="touchUpInside" id="whM-Su-PXY"/>
+                        <action selector="onLeftButtonTouchDown:event:" destination="-1" eventType="touchDown" id="jA4-5c-hW1"/>
+                        <action selector="onLefttButtonTouchCanceled:" destination="-1" eventType="touchCancel" id="1Ke-6h-Wt5"/>
+                        <action selector="onTouchDragExitForLeftButton:" destination="-1" eventType="touchDragExit" id="eXF-e4-6je"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5m-EZ-7jQ">
+                    <rect key="frame" x="188" y="0.0" width="187" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="LDh-9x-AZj"/>
+                        <constraint firstAttribute="height" constant="150" id="xqm-LQ-kWH"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="LDh-9x-AZj"/>
+                            <exclude reference="xqm-LQ-kWH"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="onRightButtonPressed:event:" destination="-1" eventType="touchUpInside" id="K9v-0S-1TD"/>
+                        <action selector="onRightButtonTouchCanceled:" destination="-1" eventType="touchCancel" id="XHh-15-69E"/>
+                        <action selector="onRightButtonTouchDown:event:" destination="-1" eventType="touchDown" id="qcd-BB-WgK"/>
+                        <action selector="onTouchDragExitForRightButton:" destination="-1" eventType="touchDragExit" id="Qnz-Ub-rX0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fon-fO-ZhG">
+                    <rect key="frame" x="-8" y="309" width="50" height="50"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.15686274510000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4QU-fr-tVp"/>
+                        <constraint firstAttribute="height" constant="50" id="ayO-Qe-Dts"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="SideButtonIcon"/>
+                    <connections>
+                        <action selector="onSideMenuButtonPressed:" destination="-1" eventType="touchUpInside" id="r0j-8G-aIF"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="42J-4a-Vtx" userLabel="Buttons Stack View">
+                    <rect key="frame" x="16" y="601" width="343" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8P-OX-nOQ" userLabel="Gender Button">
+                            <rect key="frame" x="0.0" y="0.0" width="104" height="50"/>
+                            <color key="backgroundColor" red="0.66666666669999997" green="0.15686274510000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" priority="750" constant="100" id="EPc-2O-wCN"/>
+                                <constraint firstAttribute="height" constant="50" id="wLZ-Yn-p4o"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Salsa-Regular" family="Salsa" pointSize="25"/>
+                            <state key="normal" title="Ladies">
+                                <color key="titleColor" red="0.92941176469999998" green="0.87058823529999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onGenderButtonPressed:" destination="-1" eventType="touchUpInside" id="NYs-JO-qXu"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kf6-b9-txQ" userLabel="Start Button">
+                            <rect key="frame" x="120" y="0.0" width="103" height="50"/>
+                            <color key="backgroundColor" red="0.66666666669999997" green="0.15686274510000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" priority="750" constant="100" id="Xoa-4k-VAG"/>
+                                <constraint firstAttribute="height" constant="50" id="rl9-qs-m2T"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Salsa-Regular" family="Salsa" pointSize="25"/>
+                            <state key="normal" title="Start">
+                                <color key="titleColor" red="0.92941176469999998" green="0.87058823529999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onStartButtonPressed:" destination="-1" eventType="touchUpInside" id="8im-5D-Eam"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9n-aF-K5w" userLabel="Restart Button">
+                            <rect key="frame" x="239" y="0.0" width="104" height="50"/>
+                            <color key="backgroundColor" red="0.66666666669999997" green="0.15686274510000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="0Y0-4h-C8w"/>
+                                <constraint firstAttribute="width" priority="750" constant="100" id="I80-Pi-Cn6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Salsa-Regular" family="Salsa" pointSize="25"/>
+                            <state key="normal" title="Restart">
+                                <color key="titleColor" red="0.92941176469999998" green="0.87058823529999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onRestartButtonPressed:" destination="-1" eventType="touchUpInside" id="Edy-ha-DLi"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Afn-PH-zww"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R18-qG-MUB" userLabel="Status Label">
+                    <rect key="frame" x="113" y="40" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="R18-qG-MUB" secondAttribute="height" id="I7d-yB-7Qe"/>
+                        <constraint firstAttribute="width" constant="150" id="fe8-qV-hQo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Salsa-Regular" family="Salsa" pointSize="31"/>
+                    <color key="textColor" red="0.92941176469999998" green="0.87058823529999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="501" image="RightShoeGuide" translatesAutoresizingMaskIntoConstraints="NO" id="EML-8i-XCG">
+                    <rect key="frame" x="263" y="40" width="112" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="LR9-Cw-iKu"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeftShoeGuide" translatesAutoresizingMaskIntoConstraints="NO" id="mXU-4o-LFO">
+                    <rect key="frame" x="0.0" y="40" width="113" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="blu-az-eHN"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.86274509803921573" green="0.70588235294117641" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gaM-fI-IKx" firstAttribute="width" secondItem="e5m-EZ-7jQ" secondAttribute="width" id="0Rk-hR-3i3"/>
+                <constraint firstItem="gaM-fI-IKx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2XT-9g-pZ7"/>
+                <constraint firstAttribute="trailing" secondItem="42J-4a-Vtx" secondAttribute="trailing" constant="16" id="3PS-LV-MuF"/>
+                <constraint firstAttribute="trailing" secondItem="8GV-BU-j5i" secondAttribute="trailing" constant="-40" id="3Re-21-dlq"/>
+                <constraint firstItem="8GV-BU-j5i" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-40" id="6lL-Ta-HDq"/>
+                <constraint firstItem="R18-qG-MUB" firstAttribute="leading" secondItem="mXU-4o-LFO" secondAttribute="trailing" id="8Og-d9-5fz"/>
+                <constraint firstAttribute="bottom" secondItem="gaM-fI-IKx" secondAttribute="bottom" id="AtJ-2a-jvH"/>
+                <constraint firstItem="mXU-4o-LFO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C6w-Sz-NHf"/>
+                <constraint firstItem="Fon-fO-ZhG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-8" id="HIK-bX-g8v"/>
+                <constraint firstItem="8GV-BU-j5i" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-40" id="Jbu-uf-0Ok"/>
+                <constraint firstItem="EML-8i-XCG" firstAttribute="centerY" secondItem="R18-qG-MUB" secondAttribute="centerY" id="PgM-fh-lg2"/>
+                <constraint firstItem="e5m-EZ-7jQ" firstAttribute="leading" secondItem="gaM-fI-IKx" secondAttribute="trailing" id="RG4-Ci-pph"/>
+                <constraint firstAttribute="trailing" secondItem="e5m-EZ-7jQ" secondAttribute="trailing" id="X7b-QY-0qn"/>
+                <constraint firstItem="EML-8i-XCG" firstAttribute="leading" secondItem="R18-qG-MUB" secondAttribute="trailing" id="aut-US-XIq"/>
+                <constraint firstItem="Fon-fO-ZhG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bj0-fD-5Wt"/>
+                <constraint firstAttribute="bottom" secondItem="e5m-EZ-7jQ" secondAttribute="bottom" id="dfR-HW-Re5"/>
+                <constraint firstAttribute="trailing" secondItem="EML-8i-XCG" secondAttribute="trailing" id="fwt-Tv-7T9"/>
+                <constraint firstItem="e5m-EZ-7jQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jIv-Uk-hwk"/>
+                <constraint firstItem="mXU-4o-LFO" firstAttribute="centerY" secondItem="R18-qG-MUB" secondAttribute="centerY" id="lsw-cN-fUK"/>
+                <constraint firstAttribute="bottom" secondItem="8GV-BU-j5i" secondAttribute="bottom" constant="-20" id="ngV-ek-Agc"/>
+                <constraint firstItem="R18-qG-MUB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oeD-Sp-gJp"/>
+                <constraint firstItem="42J-4a-Vtx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="orR-dH-lM8"/>
+                <constraint firstItem="R18-qG-MUB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="xCK-PF-yXq"/>
+                <constraint firstItem="gaM-fI-IKx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yC5-2k-IiY"/>
+                <constraint firstAttribute="bottom" secondItem="42J-4a-Vtx" secondAttribute="bottom" constant="16" id="yzc-MF-gVb"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="68.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Floor" width="720" height="525"/>
+        <image name="LeftShoeGuide" width="100" height="100"/>
+        <image name="RightShoeGuide" width="100" height="100"/>
+        <image name="SideButtonIcon" width="50" height="50"/>
+    </resources>
+</document>
